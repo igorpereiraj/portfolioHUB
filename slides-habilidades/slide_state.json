@@ -1,0 +1,120 @@
+{
+  "project_info": {
+    "title": "Igor Pereira de Jesus",
+    "created": 1776038545.9374633,
+    "last_updated": 1776038689.976191,
+    "total_slides": 9
+  },
+  "slides": [
+    {
+      "id": "slide_01_title",
+      "state": "edited",
+      "pageNum": 1
+    },
+    {
+      "id": "slide_02_overview",
+      "state": "edited",
+      "pageNum": 2
+    },
+    {
+      "id": "slide_03_database",
+      "state": "edited",
+      "pageNum": 3
+    },
+    {
+      "id": "slide_04_programming",
+      "state": "edited",
+      "pageNum": 4
+    },
+    {
+      "id": "slide_05_iot",
+      "state": "edited",
+      "pageNum": 5
+    },
+    {
+      "id": "slide_06_soft_skills",
+      "state": "edited",
+      "pageNum": 6
+    },
+    {
+      "id": "slide_07_trajectory",
+      "state": "edited",
+      "pageNum": 7
+    },
+    {
+      "id": "slide_08_differentials",
+      "state": "edited",
+      "pageNum": 8
+    },
+    {
+      "id": "slide_09_next_steps",
+      "state": "edited",
+      "pageNum": 9
+    }
+  ],
+  "outline": [
+    {
+      "id": "slide_01_title",
+      "title": "Igor Pereira de Jesus",
+      "summary": "Slide de título apresentando o nome, formação e foco profissional do candidato.",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "slide_02_overview",
+      "title": "Meu Perfil Técnico",
+      "summary": "Visão geral das áreas de foco técnico e competências principais.",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "slide_03_database",
+      "title": "Banco de Dados (Avançado)",
+      "summary": "Detalhamento de habilidades em SQL, MySQL e certificação SENAI.",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "slide_04_programming",
+      "title": "Lógica de Programação",
+      "summary": "Linguagens conhecidas (Portugol) e em desenvolvimento (Python, Java).",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "slide_05_iot",
+      "title": "Hardware e IoT",
+      "summary": "Experiência com Arduino e prototipagem eletrônica.",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "slide_06_soft_skills",
+      "title": "Competências Pessoais",
+      "summary": "Habilidades interpessoais e profissionais que complementam expertise técnica.",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "slide_07_trajectory",
+      "title": "Minha Trajetória",
+      "summary": "Formação acadêmica, certificações e objetivo profissional.",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "slide_08_differentials",
+      "title": "O que me Diferencia",
+      "summary": "Diferenciais competitivos: formação certificada, versatilidade e comprometimento.",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "slide_09_next_steps",
+      "title": "Próximas Etapas",
+      "summary": "Plano de desenvolvimento profissional em curto, médio e longo prazo.",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    }
+  ]
+}

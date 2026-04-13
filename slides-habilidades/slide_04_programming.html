@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lógica de Programação</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            background: #FFFFFF;
+            display: flex;
+            flex-direction: column;
+            padding: 60px 80px;
+            font-family: 'Inter', sans-serif;
+        }
+
+        .header {
+            margin-bottom: 40px;
+        }
+
+        .title {
+            font-family: 'Playfair Display', serif;
+            font-size: 48px;
+            font-weight: 700;
+            color: #1A1A1A;
+            margin-bottom: 16px;
+        }
+
+        .divider {
+            width: 60px;
+            height: 2px;
+            background: #1A1A1A;
+            margin-bottom: 24px;
+        }
+
+        .subtitle {
+            font-size: 16px;
+            color: #666666;
+            line-height: 1.6;
+        }
+
+        .content-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            flex: 1;
+            align-items: start;
+        }
+
+        .column {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .column-title {
+            font-size: 18px;
+            font-weight: 600;
+            color: #1A1A1A;
+            margin-bottom: 24px;
+            padding-bottom: 12px;
+            border-bottom: 2px solid #0055FF;
+        }
+
+        .language-item {
+            margin-bottom: 20px;
+        }
+
+        .language-name {
+            font-size: 16px;
+            font-weight: 600;
+            color: #1A1A1A;
+            margin-bottom: 8px;
+        }
+
+        .language-status {
+            display: inline-block;
+            font-size: 11px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            padding: 4px 8px;
+            border-radius: 2px;
+            margin-bottom: 8px;
+        }
+
+        .status-known {
+            background: #E8F0FF;
+            color: #0055FF;
+        }
+
+        .status-learning {
+            background: #F5F5F5;
+            color: #666666;
+        }
+
+        .language-description {
+            font-size: 13px;
+            color: #666666;
+            line-height: 1.5;
+        }
+
+        .concept-item {
+            font-size: 14px;
+            color: #333333;
+            margin-bottom: 14px;
+            line-height: 1.5;
+            padding-left: 20px;
+        }
+
+        .concept-item::before {
+            content: "▸ ";
+            color: #0055FF;
+            font-weight: 600;
+            margin-left: -20px;
+            margin-right: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="header">
+            <div class="title">Lógica de Programação</div>
+            <div class="divider"></div>
+            <div class="subtitle">Intermediário - Fundamentos sólidos e desenvolvimento contínuo</div>
+        </div>
+
+        <div class="content-grid">
+            <div class="column">
+                <div class="column-title">Linguagens</div>
+                
+                <div class="language-item">
+                    <div class="language-name">Portugol</div>
+                    <div class="language-status status-known">Consolidado</div>
+                    <div class="language-description">Fundamentos de algoritmos e lógica de programação estruturada.</div>
+                </div>
+
+                <div class="language-item">
+                    <div class="language-name">Python</div>
+                    <div class="language-status status-learning">Em Desenvolvimento</div>
+                    <div class="language-description">Aprendizado ativo com foco em aplicações práticas e ciência de dados.</div>
+                </div>
+
+                <div class="language-item">
+                    <div class="language-name">Java</div>
+                    <div class="language-status status-learning">Em Desenvolvimento</div>
+                    <div class="language-description">Estudo de orientação a objetos e desenvolvimento de aplicações robustas.</div>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="column-title">Conceitos Fundamentais</div>
+                <div class="concept-item">Estruturas de dados (arrays, listas, pilhas, filas)</div>
+                <div class="concept-item">Algoritmos de ordenação e busca</div>
+                <div class="concept-item">Fluxo de controle (condicionais e loops)</div>
+                <div class="concept-item">Funções e modularização</div>
+                <div class="concept-item">Orientação a objetos (em desenvolvimento)</div>
+                <div class="concept-item">Tratamento de exceções</div>
+                <div class="concept-item">Recursão e backtracking</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

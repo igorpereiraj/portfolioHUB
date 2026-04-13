@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O que me Diferencia</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            background: #FFFFFF;
+            display: flex;
+            flex-direction: column;
+            padding: 60px 80px;
+            font-family: 'Inter', sans-serif;
+        }
+
+        .header {
+            margin-bottom: 40px;
+        }
+
+        .title {
+            font-family: 'Playfair Display', serif;
+            font-size: 48px;
+            font-weight: 700;
+            color: #1A1A1A;
+            margin-bottom: 16px;
+        }
+
+        .divider {
+            width: 60px;
+            height: 2px;
+            background: #1A1A1A;
+            margin-bottom: 24px;
+        }
+
+        .differentials-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            flex: 1;
+            align-items: start;
+        }
+
+        .differential-card {
+            border-left: 4px solid #0055FF;
+            padding-left: 24px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .card-icon {
+            font-size: 32px;
+            color: #0055FF;
+            margin-bottom: 16px;
+            font-weight: 700;
+        }
+
+        .card-title {
+            font-size: 18px;
+            font-weight: 600;
+            color: #1A1A1A;
+            margin-bottom: 12px;
+        }
+
+        .card-description {
+            font-size: 14px;
+            color: #666666;
+            line-height: 1.6;
+        }
+
+        .highlight-text {
+            color: #0055FF;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="header">
+            <div class="title">O que me Diferencia</div>
+            <div class="divider"></div>
+        </div>
+
+        <div class="differentials-grid">
+            <div class="differential-card">
+                <div class="card-icon">✓</div>
+                <div class="card-title">Formação Certificada</div>
+                <div class="card-description">
+                    Certificação <span class="highlight-text">SENAI em Banco de Dados</span> com 4 meses de formação intensiva, garantindo conhecimento sólido e reconhecido no mercado.
+                </div>
+            </div>
+
+            <div class="differential-card">
+                <div class="card-icon">◆</div>
+                <div class="card-title">Versatilidade Técnica</div>
+                <div class="card-description">
+                    Múltiplas áreas de conhecimento: <span class="highlight-text">Banco de Dados, IoT, Programação</span>, permitindo atuar em diferentes contextos e desafios.
+                </div>
+            </div>
+
+            <div class="differential-card">
+                <div class="card-icon">⚡</div>
+                <div class="card-title">Facilidade Técnica</div>
+                <div class="card-description">
+                    Aptidão natural com tecnologia e dispositivos eletrônicos, facilitando o aprendizado rápido de novas ferramentas e plataformas.
+                </div>
+            </div>
+
+            <div class="differential-card">
+                <div class="card-icon">★</div>
+                <div class="card-title">Comprometimento</div>
+                <div class="card-description">
+                    Aprendizado contínuo em <span class="highlight-text">Python e Java</span>, demonstrando dedicação e busca constante por excelência profissional.
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Próximas Etapas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            background: #FFFFFF;
+            display: flex;
+            flex-direction: column;
+            padding: 60px 80px;
+            font-family: 'Inter', sans-serif;
+        }
+
+        .header {
+            margin-bottom: 40px;
+        }
+
+        .title {
+            font-family: 'Playfair Display', serif;
+            font-size: 48px;
+            font-weight: 700;
+            color: #1A1A1A;
+            margin-bottom: 16px;
+        }
+
+        .divider {
+            width: 60px;
+            height: 2px;
+            background: #1A1A1A;
+            margin-bottom: 24px;
+        }
+
+        .subtitle {
+            font-size: 16px;
+            color: #666666;
+            line-height: 1.6;
+        }
+
+        .timeline-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 40px;
+            flex: 1;
+            align-items: start;
+        }
+
+        .timeline-column {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .timeline-header {
+            margin-bottom: 24px;
+        }
+
+        .timeline-period {
+            font-size: 12px;
+            color: #0055FF;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 8px;
+        }
+
+        .timeline-title {
+            font-size: 20px;
+            font-weight: 600;
+            color: #1A1A1A;
+            padding-bottom: 12px;
+            border-bottom: 2px solid #0055FF;
+        }
+
+        .timeline-items {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            margin-top: 24px;
+        }
+
+        .timeline-item {
+            font-size: 14px;
+            color: #333333;
+            line-height: 1.5;
+            padding-left: 20px;
+            position: relative;
+        }
+
+        .timeline-item::before {
+            content: "→";
+            color: #0055FF;
+            font-weight: 600;
+            position: absolute;
+            left: 0;
+        }
+
+        .closing-box {
+            background: #F5F5F5;
+            border-left: 4px solid #0055FF;
+            padding: 24px;
+            margin-top: 40px;
+        }
+
+        .closing-label {
+            font-size: 12px;
+            color: #0055FF;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 12px;
+        }
+
+        .closing-text {
+            font-size: 14px;
+            color: #333333;
+            line-height: 1.6;
+        }
+
+        .highlight {
+            color: #0055FF;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="header">
+            <div class="title">Próximas Etapas</div>
+            <div class="divider"></div>
+            <div class="subtitle">Plano de Desenvolvimento Profissional</div>
+        </div>
+
+        <div class="timeline-grid">
+            <div class="timeline-column">
+                <div class="timeline-header">
+                    <div class="timeline-period">Curto Prazo</div>
+                    <div class="timeline-title">Próximos 6 Meses</div>
+                </div>
+                <div class="timeline-items">
+                    <div class="timeline-item">Consolidar Python e Java</div>
+                    <div class="timeline-item">Desenvolver projetos práticos</div>
+                    <div class="timeline-item">Aprofundar em banco de dados</div>
+                    <div class="timeline-item">Contribuir em projetos open source</div>
+                </div>
+            </div>
+
+            <div class="timeline-column">
+                <div class="timeline-header">
+                    <div class="timeline-period">Médio Prazo</div>
+                    <div class="timeline-title">6 a 12 Meses</div>
+                </div>
+                <div class="timeline-items">
+                    <div class="timeline-item">Buscar oportunidades de estágio</div>
+                    <div class="timeline-item">Aprofundar em desenvolvimento web</div>
+                    <div class="timeline-item">Criar portfólio robusto</div>
+                    <div class="timeline-item">Networking profissional</div>
+                </div>
+            </div>
+
+            <div class="timeline-column">
+                <div class="timeline-header">
+                    <div class="timeline-period">Longo Prazo</div>
+                    <div class="timeline-title">12+ Meses</div>
+                </div>
+                <div class="timeline-items">
+                    <div class="timeline-item">Estabilidade profissional</div>
+                    <div class="timeline-item">Concursos públicos em TI</div>
+                    <div class="timeline-item">Especialização em área de interesse</div>
+                    <div class="timeline-item">Liderança técnica</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="closing-box">
+            <div class="closing-label">Compromisso</div>
+            <div class="closing-text">
+                Estou comprometido com <span class="highlight">aprendizado contínuo</span>, desenvolvimento de soluções inovadoras e crescimento profissional. Cada etapa é um passo em direção à <span class="highlight">excelência técnica</span> e <span class="highlight">estabilidade profissional</span> na área de tecnologia.
+            </div>
+        </div>
+    </div>
+</body>
+</html>

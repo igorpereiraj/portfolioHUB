@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Competências Pessoais</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            background: #FFFFFF;
+            display: flex;
+            flex-direction: column;
+            padding: 60px 80px;
+            font-family: 'Inter', sans-serif;
+        }
+
+        .header {
+            margin-bottom: 40px;
+        }
+
+        .title {
+            font-family: 'Playfair Display', serif;
+            font-size: 48px;
+            font-weight: 700;
+            color: #1A1A1A;
+            margin-bottom: 16px;
+        }
+
+        .divider {
+            width: 60px;
+            height: 2px;
+            background: #1A1A1A;
+            margin-bottom: 24px;
+        }
+
+        .subtitle {
+            font-size: 16px;
+            color: #666666;
+            line-height: 1.6;
+        }
+
+        .content-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 40px;
+            flex: 1;
+            align-items: start;
+        }
+
+        .column {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .column-title {
+            font-size: 16px;
+            font-weight: 600;
+            color: #1A1A1A;
+            margin-bottom: 20px;
+            padding-bottom: 12px;
+            border-bottom: 2px solid #0055FF;
+        }
+
+        .item {
+            font-size: 14px;
+            color: #333333;
+            margin-bottom: 14px;
+            line-height: 1.5;
+        }
+
+        .item::before {
+            content: "▸ ";
+            color: #0055FF;
+            font-weight: 600;
+            margin-right: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="header">
+            <div class="title">Competências Pessoais</div>
+            <div class="divider"></div>
+            <div class="subtitle">Habilidades que complementam minha expertise técnica</div>
+        </div>
+
+        <div class="content-grid">
+            <div class="column">
+                <div class="column-title">Técnicas</div>
+                <div class="item">Resolução de problemas</div>
+                <div class="item">Pensamento crítico</div>
+                <div class="item">Análise de requisitos</div>
+                <div class="item">Atenção aos detalhes</div>
+            </div>
+
+            <div class="column">
+                <div class="column-title">Interpessoais</div>
+                <div class="item">Trabalho em equipe</div>
+                <div class="item">Comunicação clara</div>
+                <div class="item">Adaptabilidade</div>
+                <div class="item">Empatia</div>
+            </div>
+
+            <div class="column">
+                <div class="column-title">Profissionais</div>
+                <div class="item">Comprometimento com qualidade</div>
+                <div class="item">Aprendizado contínuo</div>
+                <div class="item">Responsabilidade</div>
+                <div class="item">Proatividade</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

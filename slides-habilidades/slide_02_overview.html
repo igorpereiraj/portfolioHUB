@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Perfil Técnico</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            background: #FFFFFF;
+            display: flex;
+            flex-direction: column;
+            padding: 60px 80px;
+            font-family: 'Inter', sans-serif;
+        }
+
+        .header {
+            margin-bottom: 40px;
+        }
+
+        .title {
+            font-family: 'Playfair Display', serif;
+            font-size: 48px;
+            font-weight: 700;
+            color: #1A1A1A;
+            margin-bottom: 16px;
+        }
+
+        .divider {
+            width: 60px;
+            height: 2px;
+            background: #1A1A1A;
+            margin-bottom: 24px;
+        }
+
+        .description {
+            font-size: 16px;
+            color: #666666;
+            line-height: 1.6;
+            max-width: 700px;
+            margin-bottom: 40px;
+        }
+
+        .areas-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            flex: 1;
+        }
+
+        .area-card {
+            border-left: 3px solid #0055FF;
+            padding-left: 24px;
+        }
+
+        .area-title {
+            font-size: 18px;
+            font-weight: 600;
+            color: #1A1A1A;
+            margin-bottom: 12px;
+        }
+
+        .area-description {
+            font-size: 14px;
+            color: #666666;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="header">
+            <div class="title">Meu Perfil Técnico</div>
+            <div class="divider"></div>
+            <div class="description">
+                Estudante de ADS com formação sólida em banco de dados, lógica de programação e prototipagem eletrônica. Comprometido com aprendizado contínuo em Python e Java.
+            </div>
+        </div>
+
+        <div class="areas-grid">
+            <div class="area-card">
+                <div class="area-title">Banco de Dados</div>
+                <div class="area-description">SQL, MySQL, modelagem relacional e otimização de consultas com certificação SENAI.</div>
+            </div>
+            <div class="area-card">
+                <div class="area-title">Lógica de Programação</div>
+                <div class="area-description">Portugol, estruturas de dados e algoritmos. Aprendizado em Python e Java.</div>
+            </div>
+            <div class="area-card">
+                <div class="area-title">Hardware e IoT</div>
+                <div class="area-description">Arduino, prototipagem eletrônica, sensores e atuadores para soluções IoT.</div>
+            </div>
+            <div class="area-card">
+                <div class="area-title">Desenvolvimento de Sistemas</div>
+                <div class="area-description">Análise de requisitos, design de soluções e implementação de projetos práticos.</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

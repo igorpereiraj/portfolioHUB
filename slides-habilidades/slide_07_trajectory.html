@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Trajetória</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            background: #FFFFFF;
+            display: flex;
+            flex-direction: column;
+            padding: 60px 80px;
+            font-family: 'Inter', sans-serif;
+        }
+
+        .header {
+            margin-bottom: 40px;
+        }
+
+        .title {
+            font-family: 'Playfair Display', serif;
+            font-size: 48px;
+            font-weight: 700;
+            color: #1A1A1A;
+            margin-bottom: 16px;
+        }
+
+        .divider {
+            width: 60px;
+            height: 2px;
+            background: #1A1A1A;
+            margin-bottom: 24px;
+        }
+
+        .subtitle {
+            font-size: 16px;
+            color: #666666;
+            line-height: 1.6;
+        }
+
+        .timeline {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            flex: 1;
+            margin-top: 40px;
+            position: relative;
+        }
+
+        .timeline::before {
+            content: "";
+            position: absolute;
+            top: 40px;
+            left: 0;
+            right: 0;
+            height: 2px;
+            background: #E0E0E0;
+            z-index: 0;
+        }
+
+        .timeline-item {
+            flex: 1;
+            text-align: center;
+            position: relative;
+            z-index: 1;
+        }
+
+        .timeline-dot {
+            width: 16px;
+            height: 16px;
+            background: #0055FF;
+            border: 3px solid #FFFFFF;
+            border-radius: 50%;
+            margin: 0 auto 24px;
+            position: relative;
+            box-shadow: 0 0 0 2px #0055FF;
+        }
+
+        .timeline-item:first-child .timeline-dot {
+            background: #0055FF;
+        }
+
+        .timeline-item:nth-child(2) .timeline-dot {
+            background: #0055FF;
+        }
+
+        .timeline-item:last-child .timeline-dot {
+            background: #0055FF;
+        }
+
+        .timeline-content {
+            padding: 0 20px;
+        }
+
+        .timeline-label {
+            font-size: 12px;
+            color: #0055FF;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 8px;
+        }
+
+        .timeline-title {
+            font-size: 18px;
+            font-weight: 600;
+            color: #1A1A1A;
+            margin-bottom: 12px;
+        }
+
+        .timeline-description {
+            font-size: 14px;
+            color: #666666;
+            line-height: 1.5;
+        }
+
+        .objective-box {
+            background: #F5F5F5;
+            border-left: 4px solid #0055FF;
+            padding: 24px;
+            margin-top: 40px;
+        }
+
+        .objective-label {
+            font-size: 12px;
+            color: #0055FF;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 12px;
+        }
+
+        .objective-title {
+            font-size: 18px;
+            font-weight: 600;
+            color: #1A1A1A;
+            margin-bottom: 12px;
+        }
+
+        .objective-text {
+            font-size: 14px;
+            color: #333333;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="header">
+            <div class="title">Minha Trajetória</div>
+            <div class="divider"></div>
+            <div class="subtitle">Formação, Certificações e Objetivo Profissional</div>
+        </div>
+
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <div class="timeline-label">Formação</div>
+                    <div class="timeline-title">ADS - CEUB</div>
+                    <div class="timeline-description">Análise e Desenvolvimento de Sistemas em andamento</div>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <div class="timeline-label">Certificação</div>
+                    <div class="timeline-title">SENAI</div>
+                    <div class="timeline-description">Desenvolvimento de Banco de Dados - 4 meses</div>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <div class="timeline-label">Objetivo</div>
+                    <div class="timeline-title">Crescimento</div>
+                    <div class="timeline-description">Estágio, emprego e concursos em TI</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="objective-box">
+            <div class="objective-label">Objetivo Profissional</div>
+            <div class="objective-title">Desenvolvimento Contínuo</div>
+            <div class="objective-text">
+                Busco oportunidades de estágio e emprego na área de desenvolvimento de sistemas, com foco em banco de dados, desenvolvimento web e soluções IoT. Interessado em concursos públicos na área de TI para garantir estabilidade profissional e crescimento contínuo.
+            </div>
+        </div>
+    </div>
+</body>
+</html>
