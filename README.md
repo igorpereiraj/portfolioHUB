@@ -1,4 +1,6 @@
-# portfolioHUB - Portfólio Profissional Digital 🌐
+# PortfolioHUB + IA GEMINI 🌐
+
+Este repositório faz parte do desafio de implantação final do **PortfolioHUB**, integrando o GitHub e o Google Gemini para garantir uma implantação segura e documentada.
 
 Este repositório foi desenvolvido como parte do **Desafio de Entrega Intermediária**, com o objetivo de centralizar e organizar projetos acadêmicos e pessoais, demonstrando competências em versionamento, documentação e boas práticas de desenvolvimento.
 
@@ -9,6 +11,11 @@ O portfólio está publicado e pode ser acessado através do link abaixo:
 👉 **[https://igorpereiraj.github.io/portfolioHUB](https://igorpereiraj.github.io/portfolioHUB )**
 
 ---
+
+## 🔒 Segurança e Colaboração (Desafio Final)
+- **Proteção de Branch**: O branch `main` exige Pull Requests e revisões antes do merge.
+- **Dependabot**: Monitoramento automático de vulnerabilidades em dependências.
+- **Segredos**: Uso de GitHub Secrets para chaves sensíveis.
 
 ## 📂 Estrutura do Repositório
 
